@@ -34,10 +34,10 @@ To get started with installing osTicket you're going to need Internet Informatio
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zG4ByMS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next we’re going to need PHP which acts as a server side scripting language that allows websites to interact with databases and generate custom web content such as user profiles. Essentially PHP(Hypertext Preprocessor) runs on the server in the background and will output information to the webpage for the user to interact with. Installing php is relatively simple as you just have to follow the steps located on https://www.php.net/downloads. After installation, it is imperative to register the PHP from within the IIS. 
 </p>
 <br />
 
