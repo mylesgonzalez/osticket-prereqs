@@ -42,9 +42,25 @@ Next we’re going to need PHP which acts as a server side scripting language th
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8BihBk9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After installing PHP and registering it into IIS, we can now begin the installation of MySQL. MySQL will house the database that will store all the information needed for the ticketing service to operate, such as agents, administrators, and user accounts. MySQL requires Microsoft Visual C++ to operate, which can be installed here (MVC++). Lastly, the official MySQL download page can be found here: https://dev.mysql.com/downloads/installer/. Make sure when going through your standard installation procedure to write down your root password so that you won't lose access to the server that will manage all the information within the database.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/VCi5CBz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lastly, we are going to need to install HeidiSQL, which will be used to interact with and manage our databases created in SQL. Once you have installed HeidiSQL and launched the software, you will need to type in the account details for the admin account you created when making a server in MySQL so that HeidiSQL has the permissions to manage the data held by the database on MySQL.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/WklFTBi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Now that we have all the prerequisites installed, we can type the server domain in any browser and open the osTicket startup page. From there, you'll see that we will need to enable some extensions, which can be done through IIS. Simply locate the osTicket database in IIS, click on PHP Manager, and enable the extensions required for osTicket to run properly.
 </p>
 <br />
